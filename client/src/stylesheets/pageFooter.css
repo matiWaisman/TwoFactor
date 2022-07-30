@@ -1,0 +1,46 @@
+.page-footer {
+    position: fixed;
+    flex-shrink: 0;
+    bottom: 0;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    min-height: 70px;
+    padding: 15px;
+    text-align: center;
+    color: #6e93d6;
+    font-family: "JetBrains Mono", monospace;
+    font-size: .8rem;
+    margin-top: 70px;
+}
+
+.page-footer::before {
+    content: "";
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    position: relative;
+    width: 20em;
+    height: 1px;
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+.footer-icons {
+    margin-top: 10px;
+}
+
+.footer-icon {
+    color: #ffffff;
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+}
+
+.footer-icon:hover {
+    color: #66CCFF;
+}
+
+.page-footer-name {
+    color: #ffffff;
+}

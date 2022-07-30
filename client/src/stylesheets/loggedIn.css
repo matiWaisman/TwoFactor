@@ -1,0 +1,21 @@
+.loggedInContainer {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loggedInContainer button {
+    background-color: #7246b8;
+    color: white;
+    margin: 10px;
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    border-radius: 20px;
+    width: 180px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
