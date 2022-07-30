@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 const jwt = require("jsonwebtoken");
 const Joi = require("joi");
-require("dotenv").config();
 
 const userSchema = new mongoose.Schema({
   firstName: { type: String, required: true },
