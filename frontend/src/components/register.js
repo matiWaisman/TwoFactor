@@ -25,7 +25,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     axios
-      .post("two-factor-server.vercel.app/api/users", user)
+      .post("https://two-factor-server.vercel.app/api/users", user)
       .then((response) => {
         setEmailVerifMsg(response.data.message);
       })
