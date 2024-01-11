@@ -23,7 +23,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("/api/auth", user);
+      const res = await axios.post("two-factor-server.vercel.app/api/auth", user);
       localStorage.setItem("token", res.user);
       window.location = "/";
     } catch (error) {
