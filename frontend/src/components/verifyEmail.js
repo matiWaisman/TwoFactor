@@ -8,7 +8,7 @@ const VerifyEmail = () => {
   const params = useParams();
 
   const verifyEmailUrl = async () => {
-    const url = `https://two-factor-server.vercel.app//api/users/${params.id}/verify/${params.token}`;
+    const url = `https://two-factor-server.vercel.app/api/users/${params.id}/verify/${params.token}`;
     const { data } = await axios.get(url);
     if (data.message === "Email verified") {
       setIsValidUrl(true);
